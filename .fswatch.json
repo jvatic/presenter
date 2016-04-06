@@ -1,0 +1,18 @@
+{
+    "paths": [
+        "./src",
+        "./vendor"
+    ],
+    "depth": 4,
+    "exclude": [],
+    "include": [
+        "\\.(js|jsx|css|scss|html|md)$"
+    ],
+    "command": "go run compiler/compiler.go && bash run.sh",
+    "env": {
+        "ENVIRONMENT": "development"
+    },
+    "autorestart": false,
+    "restart-interval": 0,
+    "kill-signal": "SIGKILL"
+}

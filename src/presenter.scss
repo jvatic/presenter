@@ -1,0 +1,17 @@
+@import "normalize";
+
+body {
+	font-size: 36pt;
+}
+
+.slides {
+	margin: 2rem 10rem;
+	> .slide {
+		> pre {
+			font-size: 16pt;
+			padding: 1rem;
+			border: 1px solid rgb(58, 58, 58);
+			background-color: #fafafa;
+		}
+	}
+}

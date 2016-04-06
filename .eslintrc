@@ -1,0 +1,33 @@
+{
+    "rules": {
+        "indent": [
+            2,
+            "tab"
+        ],
+        "linebreak-style": [
+            2,
+            "unix"
+        ],
+        "semi": [
+            2,
+            "always"
+        ]
+    },
+    "env": {
+        "browser": true
+    },
+    "globals": {
+        "React": false,
+        "ReactDOM": false,
+        "marked": false,
+        "hljs": false
+    },
+    "extends": "eslint:recommended",
+    "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+    },
+    "plugins": [
+        "react"
+    ]
+}
